@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		Cursor.visible = false;
 		interactions = FindObjectsOfType<Interaction>();
 		ResetGame();
 	}
